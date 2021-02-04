@@ -1,14 +1,13 @@
 ﻿  AdminFunction.cpp
-C:\Users\User\source\repos\DB\DB\AdminFunction.cpp(101,12): warning C4101: 'row': unreferenced local variable
-C:\Users\User\source\repos\DB\DB\AdminFunction.cpp(124,12): warning C4101: 'row': unreferenced local variable
-C:\Users\User\source\repos\DB\DB\AdminFunction.cpp(147,12): warning C4101: 'row': unreferenced local variable
-C:\Users\User\source\repos\DB\DB\AdminFunction.cpp(170,12): warning C4101: 'row': unreferenced local variable
-C:\Users\User\source\repos\DB\DB\AdminFunction.cpp(209,12): warning C4101: 'row': unreferenced local variable
-C:\Users\User\source\repos\DB\DB\AdminFunction.cpp(335,12): warning C4101: 'row': unreferenced local variable
+C:\Users\User\source\repos\DB\DB\AdminFunction.cpp(103,12): warning C4101: 'row': unreferenced local variable
+C:\Users\User\source\repos\DB\DB\AdminFunction.cpp(126,12): warning C4101: 'row': unreferenced local variable
+C:\Users\User\source\repos\DB\DB\AdminFunction.cpp(149,12): warning C4101: 'row': unreferenced local variable
+C:\Users\User\source\repos\DB\DB\AdminFunction.cpp(172,12): warning C4101: 'row': unreferenced local variable
+C:\Users\User\source\repos\DB\DB\AdminFunction.cpp(211,12): warning C4101: 'row': unreferenced local variable
+C:\Users\User\source\repos\DB\DB\AdminFunction.cpp(337,12): warning C4101: 'row': unreferenced local variable
   Generating code
-C:\Users\User\source\repos\DB\DB\Login.cpp(254): warning C4715: 'Login::isTrueSingIn': not all control paths return a value
-  2 of 459 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+  11 of 459 functions ( 2.4%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    39 functions had inline decision re-evaluated but remain unchanged
+    42 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   DB.vcxproj -> C:\Users\User\source\repos\DB\x64\Release\DB.exe

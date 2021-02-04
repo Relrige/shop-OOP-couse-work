@@ -69,7 +69,7 @@ void AdminFunction::menu()
 			else
 				eraseAccount(login);
 		}
-		else if (achion == 4) {
+		else if (achion == 5) {
 			std::string login;
 			std::string password;
 			std::cout << "Login ->";
@@ -78,13 +78,13 @@ void AdminFunction::menu()
 			std::getline(std::cin, password);
 			changeAccountPassword(login, password);
 		}
-		else if (achion == 5) {
+		else if (achion == 6) {
 			addProduct();
 		}
-		else if (achion == 6) {
+		else if (achion == 7) {
 			eraseProduct();
 		}
-		else if (achion == 7) {
+		else if (achion == 8) {
 			break;
 		}
 	}
@@ -268,7 +268,7 @@ void AdminFunction::addInVector(const std::string& name_category, std::vector<Pr
 			std::getline(std::cin, keyboardType);
 			std::cout << "Type of keyboard number : ";
 			std::getline(std::cin, typeOfKeyboard);
-			command = "INSERT INTO keyboard(id, name, countProduct, price, grossWeigth, guarantee,maximumDisplayResolution,updateFrequency,displayDiagonal) VALUES(" + id + ",\"" + name + "\", " + countProduct + ", " + price + ", " + grossWeigth + ", " + guarantee + "," + keyboardType + "," + typeOfKeyboard + ");";
+			command = "INSERT INTO keyboard(id, name, countProduct, price, grossWeigth, guarantee,color,connection,numberOfButtons,keyboardType,typeOfKeyboard) VALUES( 1 ,\"" + name + "\"," + countProduct + "," + price + "," + grossWeigth + ", " + guarantee + "," + color + "," + connection_type +  ","+numberOfButtons+"," + keyboardType + "," + typeOfKeyboard + ");";
 			list.push_back(new KeyBoard(id, name, countProduct, price, grossWeigth, guarantee, color, connection_type, numberOfButtons, keyboardType, typeOfKeyboard));
 		}
 		else {
@@ -284,7 +284,7 @@ void AdminFunction::addInVector(const std::string& name_category, std::vector<Pr
 		std::string displayDiagonal;
 		std::string updateFrequency;
 		std::string maximumDisplayResolution;
-		if (name_category == "Monitor"&& name_category == "Laptop") {
+		if (name_category == "Monitor" or name_category == "Laptop") {
 		std::cout << "Maximum display resolutionr : ";
 		std::getline(std::cin, maximumDisplayResolution);
 		std::cout << "Update frequency : ";
@@ -292,11 +292,11 @@ void AdminFunction::addInVector(const std::string& name_category, std::vector<Pr
 		std::cout << "Display diagonal : ";
 		std::getline(std::cin,displayDiagonal);
 		 if (name_category == "Monitor") {
-			command = "INSERT INTO monitor(id, name, countProduct, price, grossWeigth, guarantee,maximumDisplayResolution,updateFrequency,displayDiagonal) VALUES(" + id + ",\"" + name + "\", " + countProduct + ", " + price + ", " + grossWeigth + ", " + guarantee + ",\"" + maximumDisplayResolution + "\",\"" + updateFrequency + "\", \"" + displayDiagonal+ "\");";
+			command = "INSERT INTO monitor(id, name, countProduct, price, grossWeigth, guarantee,maximumDisplayResolution,updateFrequency,displayDiagonal) VALUES(" + id + ",\"" + name + "\", " + countProduct + ", " + price + ", " + grossWeigth + ", " + guarantee + ",\"" + maximumDisplayResolution + "\"," + updateFrequency + "," + displayDiagonal+ ");";
 			list.push_back(new Monitor(id, name, countProduct, price, grossWeigth, guarantee, maximumDisplayResolution, updateFrequency, displayDiagonal));
 		  }
 		}
-		else if (name_category == "PC" or name_category == "Laptop" or name_category == "Console") {
+		if (name_category == "PC" or name_category == "Laptop" or name_category == "Console") {
 			std::string processor;
 			std::string theAmountOfRAM;
 			std::string videoCard;
@@ -318,7 +318,7 @@ void AdminFunction::addInVector(const std::string& name_category, std::vector<Pr
 				list.push_back(new Console(id, name, countProduct, price, grossWeigth, guarantee, processor, theAmountOfRAM, preInstalledSoftware, videoCard));
 			}
 			else {
-				command = "INSERT INTO laptop(id, name, countProduct, price, grossWeigth, guarantee,maximumDisplayResolution,updateFrequency,displayDiagonal,processor, theAmountOfRAM, preInstalledSoftWare, videoCard) VALUES(" + id + ",\"" + name + "\", " + countProduct + ", " + price + ", " + grossWeigth + ", " + guarantee + ",\"" + processor + "\",\"" + theAmountOfRAM + "\", \"" + preInstalledSoftware + "\",\"" + videoCard + "\");";
+				command = "INSERT INTO laptop(id, name, countProduct, price, grossWeigth, guarantee,maximumDisplayResolution,updateFrequency,displayDiagonal,processor, theAmountOfRAM, preInstalledSoftWare, videoCard) VALUES(" + id + ",\"" + name + "\", " + countProduct + ", " + price + ", " + grossWeigth + ", " + guarantee + ",\"" + maximumDisplayResolution + "\"," + updateFrequency + "," + displayDiagonal + ",\"" + processor + "\",\"" + theAmountOfRAM + "\", \"" + preInstalledSoftware + "\",\"" + videoCard + "\");";
 				list.push_back(new Laptop(id, name, countProduct, price, grossWeigth, guarantee, maximumDisplayResolution, updateFrequency, displayDiagonal, processor, theAmountOfRAM, preInstalledSoftware, videoCard));
 			}
 		}
