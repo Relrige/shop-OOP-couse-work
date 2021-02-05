@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="myExeption" Collapsed="true">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAACAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Login.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="badPassword" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Login.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="banUser" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Login.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="badLogin" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Login.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdminFunction" Collapsed="true">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAEAEAQAIAAgAAEAAAAIAAIAAIAAAAAA=</HashCode>
+      <FileName>AdminFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseFunctionForUsers" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAAAAOAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseFunctionForUsers.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Product" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUDCgCAgAAAAAAAACAAARAAAAAEgABAAAAEAAAgEgA=</HashCode>
+      <FileName>CategotiesClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerComponents" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAFgAAAAAAAAAAAAAAAABAAAAAICAAAAAAAAIIAA=</HashCode>
+      <FileName>CategotiesClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mice" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAEAAAAAAAAAAAAACAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>CategotiesClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyBoard" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQEAAAIAAAABBAAAAAAAAAAAAgAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>CategotiesClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monitor">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoQAAAAAAAAAAAAAAgKAAAAIAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>CategotiesClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PC" Collapsed="true">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CategotiesClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Console" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CategotiesClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Login::ROLE_LIST" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Login.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAABAAAABAABEAAABBBgAAAQAAAgAAAgAABAAAxI=</HashCode>
+      <FileName>Login.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserFunction" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

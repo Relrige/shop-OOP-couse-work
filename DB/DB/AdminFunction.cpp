@@ -62,7 +62,7 @@ void AdminFunction::menu()
 			std::cout << "Login ->";
 			std::getline(std::cin, login);
 			if (achion == 2)
-				banAndUnBaneAccount(login);
+				banAndUnBaneAccount(login,"0");
 			else if (achion == 3) {
 				banAndUnBaneAccount(login,"1");
 			}
@@ -85,7 +85,7 @@ void AdminFunction::menu()
 			eraseProduct();
 		}
 		else if (achion == 8) {
-			break;
+			Login::menu();
 		}
 	}
 }
@@ -105,7 +105,7 @@ void AdminFunction::addAccount(const std::string& login, const std::string& pass
 	conn = mysql_init(0);
 	conn = mysql_real_connect(conn, Login::getHost().c_str(), Login::getUser().c_str(), Login::getPass().c_str(), Login::getDB().c_str(), Login::getPort(), NULL, 0);
 	if (conn) {
-		std::string query = "INSERT INTO accounts(Id,login,password,role,activity) VALUES (1,\"login\",\""+password+"\",\""+role+"\",1);";
+		std::string query = "INSERT INTO accounts(Id,login,password,role,activity) VALUES (1,\""+login+"\",\""+password+"\",\""+role+"\",1);";
 		const char* q = query.c_str();
 		qstate = mysql_query(conn, q);
 		if (!qstate)

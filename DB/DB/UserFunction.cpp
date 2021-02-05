@@ -38,6 +38,9 @@ void UserFunction::menu(){
 		if (achion == 0) {
 			BaseFunctionForUsers::showCategory(1);
 		}
+		else {
+			Login::menu();
+		}
 	}
 }
 

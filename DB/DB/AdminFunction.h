@@ -6,6 +6,7 @@
 class AdminFunction 
 {
 public:
+
 	static void menu();
 	static void addAccount(const std::string& login, const std::string& password, const std::string role);
 	static void banAndUnBaneAccount(const std::string& login,std::string status = 0);

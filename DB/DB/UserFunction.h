@@ -4,7 +4,6 @@
 #include"BaseFunctionForUsers.h"
 
 
-
 class UserFunction 
 {
 public:

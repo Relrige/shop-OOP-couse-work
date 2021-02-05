@@ -5,9 +5,14 @@ C:\Users\User\source\repos\DB\DB\AdminFunction.cpp(149,12): warning C4101: 'row'
 C:\Users\User\source\repos\DB\DB\AdminFunction.cpp(172,12): warning C4101: 'row': unreferenced local variable
 C:\Users\User\source\repos\DB\DB\AdminFunction.cpp(211,12): warning C4101: 'row': unreferenced local variable
 C:\Users\User\source\repos\DB\DB\AdminFunction.cpp(337,12): warning C4101: 'row': unreferenced local variable
+  BaseFunctionForUsers.cpp
+C:\Users\User\source\repos\DB\DB\BaseFunctionForUsers.cpp(96,12): warning C4101: 'row': unreferenced local variable
+  DB.cpp
+  Login.cpp
+  UserFunction.cpp
   Generating code
-  11 of 459 functions ( 2.4%) were compiled, the rest were copied from previous compilation.
+  0 of 459 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    42 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   DB.vcxproj -> C:\Users\User\source\repos\DB\x64\Release\DB.exe
