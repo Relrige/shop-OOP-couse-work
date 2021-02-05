@@ -1,0 +1,9 @@
+ color_list              0(White),  1(Brown),  2(Pink),  3(Multicolored),  4(Blue),   5(Silver),    6(Gray)  ,   7(Red),    8(Black) 
+
+ connection_type_list    0(Wireless),   1(Wires),    2(Wires+Cords)
+
+ sensor_type_list        0(Laser),1(Optical)
+
+ typeOfKeyboard_list     0(Game),    1(Multimedia),   2(Mini keyboard),   3(Standard) 
+
+ keyboardType_list       0(Hybrid mechanical - membrane) ,   1(Combined membrane + mechanical),  2(Membranes),  3(Mechanical),  4(Scissors),  5(Optical - mechanical) 
